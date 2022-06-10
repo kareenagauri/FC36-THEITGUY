@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar-brand {
   padding-left: 150px !important;
 }
@@ -26,4 +30,105 @@
   color: rgb(41, 26, 82);
   font-family: sans-serif;
   font-weight: bold;
+}
+
+.signup {
+  margin-left: 170px;
+  font-size: 30px;
+}
+
+.newsignup {
+  font-size: 17px;
+}
+
+.todo {
+  font-size: 60px;
+  color: #252020;
+  margin-top: 100px !important;
+}
+
+.line1 {
+  font-size: 30px;
+}
+
+.aboutus {
+  font-size: 30px;
+  margin-top: 100px !important;
+}
+
+.about {
+  font-size: 45px !important;
+  font-family: "Kanit", sans-serif;
+}
+
+.line-1 {
+  color: hsla(0, 6%, 90%, 0.603) !important;
+  border-top: 2px solid #d3d6d4;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content {
+  text-align: center !important;
+  /*padding-top: 50px;*/
+  padding-top: 35px;
+}
+
+.row {
+  margin-bottom: 100px;
+}
+
+.block-2 {
+  padding-top: 70px;
+}
+
+.aboutme {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 80px !important;
+  padding-left: 100px !important;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 100px;
+}
+
+.myphoto {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.font {
+  font-size: 25px;
+  font-family: "Cairo", sans-serif;
+}
+
+.savebtn {
+  margin-top: 20px;
+  width: 160px !important;
+  height: 50px !important;
+  background-color: rgb(44, 41, 41) !important;
+}
+
+.background1 {
+  background: url("images/services.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 100px !important;
+}
+
+.block-1 {
+  padding-top: 100px;
+  padding-left: 600px;
+}
+
+.hello {
+  font-size: 58px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.frontimg {
+  padding-top: 60px;
+  margin-left: 20px;
 }
