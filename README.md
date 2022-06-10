@@ -1,7 +1,10 @@
 # FC36-THEITGUY
-# Project Title
+# MPower 
+Invest in Mindset
 
-A brief description of what this project does and who it's for
+We aim at empowering mind's power.In a country like India where even talking about MH issues is a taboo, our goal is to be a part of change and work on spreading awarness and normalise talking about these issues.MH is just as important as physical and our website solely focuses on the users mental health.
+'Two out of three people suffer in silence,we are here to change that.'
+
 
 
 ## Badges
@@ -10,7 +13,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![Self Help A guide ](https://img.shields.io/badge/Self%20Care-A%20guide%20to%20your%20MH-blue)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
        
-        Most Indians are unaware of how they feel and how to cope up with those.
+        Most Indians are unaware of how they feel and how to cope up with those.'
         So we have come up with a Section who's sole focus is to educate and 
         spread awarness about the common MH issues. 
                 1.Medication related to the same 
