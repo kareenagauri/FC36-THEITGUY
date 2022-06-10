@@ -1,0 +1,44 @@
+.container {
+  padding: 10px;
+  /*display: flex;*/
+}
+
+#myItems {
+  display: flex !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+.items {
+  display: flex;
+  padding-left: 220px !important;
+}
+
+.card {
+  margin-left: 15px;
+}
+
+.docpic {
+  height: 250px;
+  width: 200px;
+}
+
+.doccon {
+  padding-left: 420px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.form-control {
+  width: 60% !important;
+}
+
+.searchdoc {
+  padding-left: 300px;
+}
+
+.card-title {
+  padding-top: 10px !important;
+}
