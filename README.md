@@ -2,18 +2,18 @@
 # MPower 
 Invest in Mindset
 
+![cf041e54-c72d-4127-a9cc-aecfe3c397b9](https://user-images.githubusercontent.com/84352394/173156471-634a4e27-3c56-4b31-9dd6-aa0217510226.jpg)
+
 We aim at empowering mind's power.In a country like India where even talking about MH issues is a taboo, our goal is to be a part of change and work on spreading awarness and normalise talking about these issues.MH is just as important as physical and our website solely focuses on the users mental health.
 'Two out of three people suffer in silence,we are here to change that.'
 
 
 
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
+## FEATURES
 
 [![Self Help A guide ](https://img.shields.io/badge/Self%20Care-A%20guide%20to%20your%20MH-blue)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
        
-        Most Indians are unaware of how they feel and how to cope up with those.'
+        Most Indians are unaware of how they feel and how to cope up with those.
         So we have come up with a Section who's sole focus is to educate and 
         spread awarness about the common MH issues. 
                 1.Medication related to the same 
@@ -42,4 +42,33 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
      So we have implemented a system where user can open up to us anonymously and post their 
      issues.Our goal is to encourage users to realise that MH issues are common and not a 
      topic to avoid.
-               1.Guidelines related to sexual harrasment and domestic abuse to empower victims to speak up
+               1.Guidelines related to sexual harrasment and domestic abuse to empower victims to speak up.
+               2.Solutions to ususal MH issues faced by people of varying age groups
+               3.Words of affirmations.
+
+[![AGPL License](https://img.shields.io/badge/Survey-Know%20more%20about%20your%20MH-red)](http://www.gnu.org/licenses/agpl-3.0)
+
+     Most people aren't aware of how they feel and most symptoms go unnoticed.We have curated
+     a survey which helps us analyse the mental health of our users.Once the survey is filled
+     we get back to the users with their results and recomendations
+            1.Easy to fill survey 
+            2.Understandable language 
+            3.Urges users to think about the state of their MH 
+            
+[![AGPL License](https://img.shields.io/badge/Donation-Donate%20to%20improve%20the%20community%20health%20-blueviolet)](http://www.gnu.org/licenses/agpl-3.0)
+  
+          MH care is majorly inaccessible due to financial constrains for most people.
+          To make it more affordable we have introduced Dontation option wherein intered individuals
+          can donate to be a part of the change.These funds can be requested by contacting us.
+
+
+[![AGPL License](https://img.shields.io/badge/FAQ-Know%20more%20about%20general%20MH%20Care-yellow)](http://www.gnu.org/licenses/agpl-3.0)
+      
+       Understanding the significance of MH is the first step to a healthier mind.We have a FAQ page 
+       the most frequently asked questions regarding mental healthcare.We believe that awarness is the 
+       first step to a healtheir mind set.Education and empowerment is our primary goal.
+      
+[![AGPL License](https://img.shields.io/badge/Contact%20us-Get%20in%20touch%20with%20us%20-9cf)](http://www.gnu.org/licenses/agpl-3.0)
+
+        Contact us for any queries or suggestions.
+        
