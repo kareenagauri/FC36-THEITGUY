@@ -1,11 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Doctors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/style3.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a192feddcc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>your doctors are here!</h1>
+    <div class="doccon"><h1>Connect to your doctors NOW!</h1></div>
+    <div class="container">
+      <div class="row searchdoc">
+        <div class="col-sm-12 mb-3">
+          <input
+            type="text"
+            id="myFilter"
+            class="form-control"
+            onkeyup="myFunction()"
+            placeholder="Search for names.."
+          />
+        </div>
+      </div>
+      <div class="row" id="myItems">
+        <div class="col-sm-12 mb-3 items">
+          <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc1.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Dr.David Sam </a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">⭐⭐⭐⭐ Ratings</h6>
+              <p class="card-text">Anxiety, Child Therapist</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc2.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Dr. Aruna Bansal</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">⭐⭐⭐ Ratings</h6>
+              <p class="card-text">Depression, Bi-polar disorder</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc3.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Dr. Manish Parghania </a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">⭐⭐⭐ Ratings</h6>
+              <p class="card-text">Stress, OCD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="myItems1">
+        <div class="col-sm-12 mb-3 items">
+          <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc4.jpeg" alt="" />
+              <h5 class="card-title"><a href="">Dr.Anil Kumar</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">⭐⭐⭐⭐⭐ Ratings</h6>
+              <p class="card-text">LGBTQ+, Grief&loss</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc5.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Dr. Murali K</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">⭐⭐⭐⭐ Ratings</h6>
+              <p class="card-text">Sexual issues, Trauma</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc1.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Dr. Shubhmita Das</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">⭐⭐⭐⭐ Ratings</h6>
+              <p class="card-text">Psychosis, Couple therapy</p>
+            </div>
+          </div>
+
+          <!-- <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc1.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Card Seven</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some text.</p>
+            </div>
+          </div> -->
+
+          <!-- <div class="card">
+            <div class="card-body">
+              <img class="docpic" src="../images/doc1.jpeg" alt="" />
+              <h5 class="card-title"><a href="#">Card Eight</a></h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some text.</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var input,
+          filter,
+          cards,
+          cards1,
+          cardContainer,
+          h5,
+          title,
+          i,
+          cardContainer1;
+        input = document.getElementById("myFilter");
+        filter = input.value.toUpperCase();
+        cardContainer = document.getElementById("myItems");
+        cardContainer1 = document.getElementById("myItems1");
+        cards = cardContainer.getElementsByClassName("card");
+        cards1 = cardContainer1.getElementsByClassName("card");
+        // cards.push.apply(cards, cards1)
+        for (i = 0; i < cards.length; i++) {
+          title = cards[i].querySelector(".card-body p.card-text");
+          if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+          } else {
+            cards[i].style.display = "none";
+          }
+        }
+
+        for (i = 0; i < cards1.length; i++) {
+          title = cards1[i].querySelector(".card-body p.card-text");
+          if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            cards1[i].style.display = "";
+          } else {
+            cards1[i].style.display = "none";
+          }
+        }
+      }
+    </script>
   </body>
 </html>
