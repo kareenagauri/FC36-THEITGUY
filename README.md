@@ -74,6 +74,7 @@ We aim at empowering mind's power.In a country like India where even talking abo
         
 ## Documentation
 This project was developed in under 24 hours with help of
+     
           HTML
           CSS
           Javascript
@@ -85,12 +86,13 @@ This project was developed in under 24 hours with help of
 
 
 ## Developers
-Kareena Gauri:
+Kareena Gauri
 
-Ananya C:
+Ananya C
 
-Ananya N:
+Ananya N
 
-Varshitha K:
+Varshitha K
 
 ## Linked API's 
+
