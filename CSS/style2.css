@@ -82,13 +82,13 @@ accordion-link.ion-md remove {
   padding: 2rem;
 }
 
-/* .accordion-item: target .answer {
+.accordion-item: target .answer {
   max-height: 20rem;
 }
 
 .accordion-item: target .accordion-link .ion-md-add {
   display: none;
-} */
+}
 
 .faq-body {
   font-size: 18px;

@@ -49,6 +49,7 @@ html {
 
 .line1 {
   font-size: 30px;
+  color: rgb(25, 177, 197);
 }
 
 .aboutus {
@@ -147,4 +148,51 @@ html {
   width: 100px;
   padding: 0;
   margin-bottom: 0;
+}
+
+.btn-1 {
+  background-color: rgb(25, 177, 197) !important;
+}
+
+.self {
+  margin-left: 320px;
+  height: 500px;
+  width: 800px;
+}
+
+.top1 {
+  color: #ebb69c;
+  padding-left: 600px;
+  padding-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.top2 {
+  color: #404042;
+  padding-left: 400px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.top3 {
+  color: #ebb69c;
+  padding-left: 550px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.top4 {
+  padding-left: 670px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.vid {
 }
