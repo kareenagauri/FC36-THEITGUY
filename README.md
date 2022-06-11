@@ -72,3 +72,25 @@ We aim at empowering mind's power.In a country like India where even talking abo
 
         Contact us for any queries or suggestions.
         
+## Documentation
+This project was developed in under 24 hours with help of
+          HTML
+          CSS
+          Javascript
+          Bootstrap
+          Tidio
+   
+            We used Tidio to develop the chatbox and Javascript for the backend functionality.
+            CSS and HTML were used to develop most of our features.
+
+
+## Developers
+Kareena Gauri:
+
+Ananya C:
+
+Ananya N:
+
+Varshitha K:
+
+## Linked API's 
