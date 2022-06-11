@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Build a Survey Form using HTML and CSS
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: #c192ec;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: rgb(220, 197, 241);
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>SURVEY FORM</h1>
+    <h3>Tell us how you feel</h3>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="age"
+				placeholder="Enter your age" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which option best describes you?
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="student">Student</option>
+				<option value="intern">Intern</option>
+				<option value="professional">
+					Professional
+				</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		
+        <div class="form-control">
+			<label>1.How often do you Observe how you feel?
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			
+				
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp"> Never</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp"> Sometimes</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp"> Rarely</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp"> Always</input></label>
+     </div>
+
+
+     <div class="form-control">
+        <label>2.Do you have obsessive thoughts? If yes, do they interfere in your daily life activities?
+            <small>(Check all that apply)</small>
+        </label>
+        <!-- Input Type Checkbox -->
+        
+
+            
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> None at all
+                </input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> I do have slightly obsessive thoughts but they donâ€™t interfere in my daily life.</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> I do have obsessive thoughts and cause interference with social occupational performance ,but still manageable.
+              </input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Causes impairment in social or occupational performance 
+    </input></label>
+      <label for="inp-7">
+            <input type="checkbox"
+                        name="inp">Incapacitating</input></label>
+     <label/>               
+
+    <div class="form-control">
+        <label>3.How much distress is caused by your thoughts?
+            <small>(Check all that apply)</small>
+        </label>
+        <!-- Input Type Checkbox -->
+        
+            
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> None at all
+                </input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Not too disturbing </input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Disturbing but managable
+              </input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Very disturbing</input></label>
+
+    
+ </div>
+ <div class="form-control">
+    <label>4.How often have you not been able to stop or control worrying
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> None at all
+            </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Several days</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Few days
+          </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Very often 
+        </input></label>
+  <label for="inp-7">
+        <input type="checkbox"
+                    name="inp"> Almost all the time</input></label>
+
+</div>
+<div class="form-control">
+    <label>5.How do you worry TOO much about different things?
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> None at all
+            </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Several days</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Few days
+          </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Very often 
+            Incapacitating</input></label>
+  <label for="inp-7">
+        <input type="checkbox"
+                    name="inp"> Almost all the time</input></label>
+
+</div>
+<div class="form-control">
+    <label>6.How often do you relax without feeling uneasy?
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> None at all
+            </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Several days</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Few days
+          </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Very often </input></label>
+  <label for="inp-7">
+        <input type="checkbox"
+                    name="inp"> Almost all the time</input></label>
+
+</div>
+<div class="form-control">
+    <label>7.How often are you irritable and easily annoyed 
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Not at all
+            </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Several days</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Few days
+          </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Very often 
+            </input></label>
+  <label for="inp-7">
+        <input type="checkbox"
+                    name="inp"> Almost all the time</input></label>
+
+</div>
+<div class="form-control">
+    <label>8.How often do you feel afraid that something bad might happen?
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> None at all
+            </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Several days</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Few days
+          </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Very often 
+            Incapacitating</input></label>
+  <label for="inp-7">
+        <input type="checkbox"
+                    name="inp"> Almost all the time</input></label>
+
+</div>
+<div class="form-control">
+    <label>Do you feel overwhelmingly sad?
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp">Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely
+          </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always</input></label>
+  <label for="inp-7">
+        <input type="checkbox"
+                    name="inp">Never </input></label>
+
+</div>
+    <div class="form-control">
+        <label>9.Does it make you feel to see unorganised things?
+            <small>(Check all that apply)</small>
+        </label>
+        <!-- Input Type Checkbox -->
+        
+            
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Uncomfortable</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> I feel the need to set it right</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Doesn't affect me at all</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp"> Bothers me slightly</input></label>
+    
+ </div>
+ <div class="form-control">
+    <label>10.Do you know why you feel the way you do?
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Never </input></label>
+
+</div>
+<div class="form-control">
+    <label>11.Do you know how you're feeling?
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Never </input></label>
+
+</div>
+<div class="form-control">
+    <label>12.Having to eat or the thought of food causes anxiety in me 
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Never </input></label>
+
+</div>
+<div class="form-control">
+    <label>13.When I realise people are looking at me I panic 
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Never </input></label>
+<div class="form-control">
+    <label>13.When I realise people are looking at me I panic 
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Never </input></label>
+
+</div>
+<div class="form-control">
+    <label>14.When I am under pressure,I freeze
+        <small>(Check all that apply)</small>
+    </label>
+    <!-- Input Type Checkbox -->
+    
+        
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Sometimes</input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Rarely </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Always </input></label>
+    <label for="inp-7">
+        <input type="checkbox"
+            name="inp"> Never </input></label>
+
+</div>
+
+
+		
+        <div class="form-control">
+			<label>15.How do you feel right now?
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Fear</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Frustrated</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Annoyed</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Anxious</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Sad</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Happy</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Satisfied</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Amused</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Boredom</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Confused</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                     name="inp">Pain</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                     name="inp">Can't figure out how I'm feeling</input></label>
+		</div>
+
+
+		<div class="form-control">
+			<label for="comment">
+				How does it make you feel while opening up 
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+        <div class="form-control">
+			<label for="comment">
+				Words or sentences that make you feel good/give you reassurance
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>
