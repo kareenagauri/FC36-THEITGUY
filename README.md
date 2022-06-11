@@ -95,22 +95,39 @@ Ananya N
 Varshitha K
 
 ## Demo
+
+The following are the screenshots of our website.
+
+Our Homescreen:
+
+
 ![1](https://user-images.githubusercontent.com/105562540/173172168-eebc4e05-d45c-435e-8c19-b7c1b0db0b21.png)
 
-![2](https://user-images.githubusercontent.com/105562540/173172215-676a7b6b-6f22-4501-8be1-b2c74155bd2d.png)
+Our Services:
 
 ![3](https://user-images.githubusercontent.com/105562540/173172220-46ad061a-8b1a-4bf0-90bd-3428b1263545.png)
 
+Self Help page:
+
+
 ![4](https://user-images.githubusercontent.com/105562540/173172225-5f0e3d8b-0d1b-49b4-a5fb-9156b3ac0fd9.png)
+
+
+Contact us 
+
 
 ![5](https://user-images.githubusercontent.com/105562540/173172226-64c90081-bdac-4321-bb8a-26b160292dc5.png)
 
-OUR ROUND 1 FANTOM CODE'22 PRESENTATION : 
+
+## OUR ROUND 1 FANTOM CODE'22 PRESENTATION : 
+
+A screenshot from the presentataion
+
 
 ![6](https://user-images.githubusercontent.com/105562540/173172235-b587ee9a-1354-439a-851d-0ee5bf28e80d.png)
 
 
-## PRESENTATION
+Our presentation link:
 
 https://www.canva.com/design/DAE14d2A35I/8jeKvR6fciOrYEQfAKVy-w/view?utm_content=DAE14d2A35I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
