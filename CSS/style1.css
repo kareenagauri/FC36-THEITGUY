@@ -211,3 +211,8 @@ html {
   padding-left: 400px;
   padding-top: 100px;
 }
+
+.col1 {
+  height: 300px;
+  width: 400px;
+}
