@@ -194,5 +194,20 @@ html {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.vid {
+.more {
+  padding-top: 30px;
+  padding-left: 450px;
+}
+
+.poster1 {
+  height: 700px;
+  width: 1000px;
+  padding-left: 400px;
+}
+
+.poster2 {
+  height: 1500px;
+  width: 1000px;
+  padding-left: 400px;
+  padding-top: 100px;
 }
